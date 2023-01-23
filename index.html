@@ -18,42 +18,45 @@
 <body>
      <!-- Шапка сайта -->
     <header class = "page-header">
-        <nav class = "navigation">
-        <a class="logo" href="index.html">Web<span class ="logo-studio-black">Studio</span></a>
-        <ul class = "list">
-            <li>
-                <a class="nav-link" href="./index.html">Studio</a>
-            </li>
-            <li>
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#contacts">Contacts</a>
-            </li>
-        </ul>
-    </nav>
-    <ul>
-        <li>
-            <a class="contact-link link" href ="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-            <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-    </ul>
+        <div class="container">
+            <nav class = "navigation">
+                <a class="logo" href="index.html">Web<span class ="logo-studio-black">Studio</span></a>
+                <ul class = "list">
+                    <li>
+                        <a class="nav-link" href="./index.html">Studio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li>
+                    <a class="contact-link link" href ="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </div>
     </header>
+       
     <main>
         <!--Hero-->
         <section class ="hero">
-            <div>
+            <div class ="container">
                 <h1 class="main-title">Effective Solutions <br>
                     for Your Business</h1>
                     <button class="hero-button" type = "button">Order Service</button>
-
-            </div>
+            </div>   
             </section>
             <!--Methods-->
             <section class ="section">
-                <h2>Methods</h2>
+                <div class = "container">
+                    <h2 >Methods</h2>
                 <ul class ="list">
                 <li><h3 class="methods">Strategy</h3>
                    <p class="description">Our goal is to identify the business
@@ -65,9 +68,11 @@
                    <li><h3 class="methods">Technologies</h3>
                    <p class="description">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p></li>     
                 </ul>
+                </div>
                 </section>    
                 <!--Examples-->
         <section class="section">
+          <div class ="container">
             <h2 class="subtitle">What are we doing</h2>
             <ul class ="list">
                 <li>
@@ -80,34 +85,38 @@
                     <img src="./images/mission/img3.jpg" alt = "Connection" width="360" height="300"/>
                 </li>
             </ul>
+          </div>    
         </section>
-        <section>
-            <h2 class="subtitle">Our Team</h2>
-            <ul>
-                <li>
-                    <img src="./images/team/mark.jpg" alt = "team-member" width="264" height="260"/>
-                    <h3 class="methods">Mark Guerrero</h3>
-                    <p class="description">Product Designer</p>
-                </li>
-                <li>
-                    <img src= "./images/team/tom.jpg" alt = "team-member" width="264" height="260"/>
-                    <h3 class="methods">Tom Ford</h3>
-                    <p class="description">Frontend Developer</p>               
-                 </li>
-                <li>
-                    <img src="./images/team/camila.jpg" alt = "team-member" width="264" height="260"/>
-                    <h3 class="methods">Camila Garcia</h3>
-                    <p class="description">Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/team/daniel.jpg" alt = "team-member" width="264" height="260"/>
-                    <h3 class="methods">Daniel Wilson</h3>
-                    <p class="description">Designer</p>
-                </li>
-                <li>
-
-            </ul>
-
+        <section class = "section">
+            <div class ="container"> 
+                <h2 class="subtitle">Our Team</h2>
+                <ul>
+                    <li>
+                        <img src="./images/team/mark.jpg" alt = "team-member" width="264" height="260"/>
+                        <h3 class="methods">Mark Guerrero</h3>
+                        <p class="description">Product Designer</p>
+                    </li>
+                    <li>
+                        <img src= "./images/team/tom.jpg" alt = "team-member" width="264" height="260"/>
+                        <h3 class="methods">Tom Ford</h3>
+                        <p class="description">Frontend Developer</p>               
+                     </li>
+                    <li>
+                        <img src="./images/team/camila.jpg" alt = "team-member" width="264" height="260"/>
+                        <h3 class="methods">Camila Garcia</h3>
+                        <p class="description">Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./images/team/daniel.jpg" alt = "team-member" width="264" height="260"/>
+                        <h3 class="methods">Daniel Wilson</h3>
+                        <p class="description">Designer</p>
+                    </li>
+                    <li>
+    
+                </ul>
+    
+            </div>
+           
         </section>
     </main>
     <footer>

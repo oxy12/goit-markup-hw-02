@@ -1,0 +1,209 @@
+:root{
+    --primary-font:'Roboto', sans-serif;
+    --secondary-font: 'Raleway';
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom:0;
+
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+button{
+    cursor: pointer;
+}
+
+.list{
+    list-style: none;
+
+}
+body{
+    font-family:var( --secondary-font);
+    font-family: var( --primary-font);
+}
+.container{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:15px ;
+    padding-right:15px;
+
+    
+
+
+
+}
+
+
+.link{
+    text-decoration: none;
+}
+    
+/*==================HEADER===============*/
+.logo{
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.logo-studio-black{
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+}
+.nav-link:hover{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+
+.contact-link:hover{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+    color: #404BBF;
+}
+
+/*==================/HEADER===============*/
+/*==================HERO===============*/
+.main-title{
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
+.hero-button:hover{
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+border:none;
+background-color: #4D5AE5;
+
+
+}
+/*==================/HERO===============*/
+
+/*==================Methods===============*/
+.methods{
+    font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+/*NAVY BLUE*/
+#2E2F42
+
+}
+.description{
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+/*==================/Methods===============*/
+
+/*==================Section===============*/
+.subtitle{
+font-size: 36px;
+line-height: 0.9;
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+color: #2E2F42;
+}
+
+/*==================PORTFOLIO===============*/
+.button-portfolio-special:hover{
+    background-color: #404BBF;
+    font-family: 'Roboto';
+    width: 21px;
+    height: 1.5em;
+    border:none;
+    
+    /* Button Text */
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+}
+/*.vector{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 482px;
+    top: 213px;
+    
+}*/
+.button-portfolio :focus{
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+border:none;
+color: #4D5AE5;
+cursor: pointer;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+}
+
+/*==================GALLERY===============*/
+
+.link{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+}
+.example-text{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+
+}
+/*==================/GALLERY===============*/
+/*==================FOOTER===============*/
