@@ -10,7 +10,8 @@ h3,
 h4,
 h5,
 h6,
-p{
+p
+{
     margin-top: 0;
     margin-bottom:0;
 
@@ -26,14 +27,16 @@ img{
 }
 button{
     cursor: pointer;
+    border:none;
+
 }
 
 .list{
     list-style: none;
+    text-decoration: none;
 
 }
 body{
-    font-family:var( --secondary-font);
     font-family: var( --primary-font);
 }
 .container{
@@ -43,83 +46,106 @@ body{
     padding-left:15px ;
     padding-right:15px;
 
-    
-
-
-
 }
-
 
 .link{
     text-decoration: none;
+
 }
     
 /*==================HEADER===============*/
 .logo{
+font-family: 'Raleway';   
 font-size: 18px;
+font-weight: 800;
 line-height: 1.33;
 display: flex;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var( --secondary-font);
 }
 .logo-studio-black{
 
 /* NAVY BLUE */
 
 color: #2E2F42;
-
 }
-.nav-link:hover{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
-}
-
 .contact-link:hover{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455; 
     color: #404BBF;
 }
+.contact-link{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
+}
 /*==================/HEADER===============*/
 /*==================HERO===============*/
 .main-title{
+font-family: 'Roboto';
+font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-}
-
-.hero-button:hover{
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
+font-weight: 700;
 color: #FFFFFF;
-border:none;
-background-color: #4D5AE5;
-
 
 }
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #4D5AE5;  
+}
+
+
+
+.hero-button{
+    font-family: 'Roboto';
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    border:none;
+    color: #FFFFFF;
+    background-color: #353535;
+
+}
+.nav-link focus,
+.nav-link hover{
+    background:#E7E9FC; 
+    color: #4D5AE5;
+}
+
+.nav-link{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: none;
+}
+
 /*==================/HERO===============*/
 
 /*==================Methods===============*/
 .methods{
+    font-weight: 500;
     font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-
+    line-height: 1.2;
+color:
 /*NAVY BLUE*/
-#2E2F42
+#2E2F42;
 
 }
+
 .description{
 font-size: 16px;
 line-height: 1.2;
@@ -131,9 +157,10 @@ color: #434455;
 
 /*==================Section===============*/
 .subtitle{
+font-family: 'Roboto';
+font-weight: 700;
 font-size: 36px;
 line-height: 0.9;
-
 letter-spacing: 0.02em;
 text-transform: capitalize;
 
@@ -142,17 +169,13 @@ color: #2E2F42;
 }
 
 /*==================PORTFOLIO===============*/
-.button-portfolio-special:hover{
+.button-portfolio-special{
     background-color: #404BBF;
     font-family: 'Roboto';
     width: 21px;
-    height: 1.5em;
     border:none;
-    
-    /* Button Text */
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     
     display: flex;
     align-items: center;
@@ -161,16 +184,12 @@ color: #2E2F42;
     color: #FFFFFF;
 
 }
-/*.vector{
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 482px;
-    top: 213px;
-    
-}*/
 .button-portfolio :focus{
-font-family: 'Roboto';
+    color: #4D5AE5;
+    background: #f4f4fd;
+}
+.button-portfolio{
+    font-family: 'Roboto';
 font-size: 16px;
 line-height: 1.5;
 display: flex;
@@ -184,26 +203,49 @@ border: 1px solid #E7E9FC;
 border-radius: 4px;
 }
 
-/*==================GALLERY===============*/
-
-.link{
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    
-    /* NAVY BLUE */
-    
-    color: #2E2F42;
-}
-.example-text{
-font-size: 16px;
-line-height: 1.5;
+/*===================Section====================*/
+.section-sub-title{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 letter-spacing: 0.02em;
 
-/* SLATE */
+/* NAVY BLUE */
 
-color: #434455;
-
+color: #2E2F42;
 }
-/*==================/GALLERY===============*/
+
+.example-text{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+}
+
+/*=================/SECTION=====================*/
+
 /*==================FOOTER===============*/
+.footer-logo{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    text-decoration: none;
+}
+.footer-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+/* CORNFLOWER */
+
+color: #E7E9FC;
+}
+/*=================/FOOTER===============*/
